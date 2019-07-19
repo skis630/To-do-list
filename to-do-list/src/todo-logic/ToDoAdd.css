@@ -1,0 +1,29 @@
+.add {
+    position: absolute;
+    left: 70%;
+    top: 15%;
+    
+}
+
+#add {
+    cursor: pointer;
+    color: gray;
+}
+
+#add, #to-do-item {
+    background-color: transparent;
+    border: none;
+}
+
+#to-do-item:focus, #add:focus {
+   outline: 0;
+}
+
+.todo ul {
+    list-style-type: none;
+}
+
+.todo ul li {
+    background: transparent;
+}
+
